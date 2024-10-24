@@ -5,29 +5,19 @@
 
 body{
     margin: 0;
-    background-image: url(pumpkin-pattern.png);
-    background-repeat: repeat;
-    background-size: 12rem;
+    background-color: #FCF3DB;
 }
 
 h1{
     font-family: halloweenFont;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 0.01px rgb(0, 0, 0);
 }
 
-.title{
-    background-image: url(orange-1.jpg);
-    background-repeat: repeat;
-    background-size: 8rem;
-    display: flex;
-    height: 8rem;
-}
-
-#title-header{
-    margin-left: 5rem;
-    font-size: 6rem;
-    margin: 0.5rem 0 0.5rem 0.5rem;
+h2{
+    font-family: halloweenFont;
+    color: #E1A46F;
+    font-size: large;
+    margin-top: 1rem;
 }
 
 #secret-pumpkin{
@@ -39,64 +29,66 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 18rem ;
+    justify-content: end;
+    height: 30rem ;
     width: 48rem;
-    background-image: url(Pumpkin.png);
-    background-repeat: no-repeat;
-    background-size: 38rem;
-    background-position: center;
-    border-radius: 3cap;
-    margin: 1rem;
-}
-
-.answer h1{
-    font-size: 2.5rem;
 }
 
 .answer-container{
     display: flex;
     justify-content: center;
-    padding: 12rem 0 12rem 0;
+    height: 100vh;
+    background-image: url(SecretBackground.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#password{
+#password-input{
     border-radius: 1cap;
-    height: 2rem;
+    height: 4rem;
     width: 18rem;
     padding: 0 1rem 0 1rem;
     font-family: halloweenFont;
     color: black;
-    font-size: large;
-    margin: 1rem;
+    background-color: #FCF3DB;
+    font-size: x-large;
+    margin: 0 0 1rem 0;
 }
 
 #submit-initial{
     height: 3rem;
     width: 8rem;
-    background-color: black;
+    background-color: #E1A46F;
     font-family: halloweenFont;
     font-size: x-large;
-    color: rgb(255, 123, 0);
     border-radius: 1cap;
+    color: black;
 }
 
-.submit-container{
+.answer-four{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 12rem;
 }
 
-#submit-secondary{
-    height: 6rem;
-    width: 24rem;
-    background-color: black;
-    font-family: halloweenFont;
-    font-size: xx-large;
-    color: rgb(255, 123, 0);
-    border-radius: 1cap;
+.answer-fourth{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    align-items: center;
+    height: 185px;
+    width: 4rem;
+    margin: 2rem;
 }
 
 .password{
-    width: 6rem;
-    height: 4rem;
+    width: 2rem;
+    height: 3rem;
+}
+
+.sub-image{
+    width: 4rem;
+    margin: 1rem;
 }
